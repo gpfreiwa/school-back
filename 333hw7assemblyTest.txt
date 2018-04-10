@@ -1,0 +1,27 @@
+load 0x11 into R1
+load 0x12 into R2
+load 0x14 into R3
+load 0x02 into R0
+add R1 R2 into R4
+addi R1 0x2 into R1
+sub R2 R1 into R5
+mul R0 R1 into 6
+div R6 R1 into R7
+inc R1 into R1
+dec R1 into R1
+or R3 R2 into R8
+and R3 R2 into R9
+xor R0 R2 into R10
+comp R1 into R11
+jmp to 20
+load 0xff into R0
+load 0xff into R1
+load 0xff into R2
+cmpj R2 R0 0x4
+load 0xff into R0
+load 0xff into R1
+load 0xff into R2
+nop
+nop
+nop
+halt
